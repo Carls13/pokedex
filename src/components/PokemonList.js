@@ -18,7 +18,7 @@ const PokemonList = ({ pokemons, loadPokemons, isNext }) => {
       onEndReached={loadMore}
       onEndReachedThreshold={0.1}
       ListFooterComponent={
-        isNext && <ActivityIndicator size="large" color={"#aeaeae"}  style={styles.spinner} />
+        isNext && <ActivityIndicator size="large" color={"red"}  style={styles.spinner} />
       }
     />
   );

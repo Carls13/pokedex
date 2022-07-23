@@ -20,7 +20,7 @@ const renderPokeball = () => {
 
 const Navigation = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator initialRouteName="Pokedex">
       <Tab.Screen name="Favorite" options={{
         tabBarLabel: "Favorites",
         tabBarIcon: ({ color, size }) => (
